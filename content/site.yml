@@ -5,6 +5,7 @@ tagline: a dōTERRA Wellness Advocate
 rank: dōTERRA Diamond
 owner_id: "88739"
 domain: www.goodhealthoils.com
+google_tag_id: GTM-5QVDDQ8W   # Google Analytics tag (GA4 stream G-2CBR5RV9RF). Leave empty to turn analytics off.
 copyright: Good Health Oils, LLC.
 links:
   ask: https://docs.google.com/forms/d/e/1FAIpQLSdXjcwQ4t8o9n4gA4EouiuT6xB4CdmT4KgTnSfoTlj26nhlPA/viewform?usp=sf_link
