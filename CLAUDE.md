@@ -5,6 +5,7 @@ Stephne updates it by sending Claude short prompts, often from her phone. Make t
 to check it builds with no WARNING lines, then commit to `main` and push. GitHub Actions publishes in about a minute.
 
 ## Golden rules
+- In visible text always write the brand as **dōTERRA** (with the ō), never "doTERRA". Links and file names stay lowercase `doterra`.
 - Every doterra.com link ends with `?OwnerID=88739` (her referral ID). link.doterra.com short links are already hers.
 - Promotions are content only - edit YAML in `content/`, not the templates, unless she asks for a design change.
 - Never invent prices, PV, dates or terms. Use doterra.com/US/en/promotions, the doTERRA Digital Marketing Kit, or OneDrop.
