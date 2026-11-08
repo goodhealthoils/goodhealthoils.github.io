@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="page-head"><div class="wrap"><h1>{{ page.title }}</h1></div></section>
+{% for p in page.products %}
+<section class="wrap split howto">
+  <div class="split-text"><h2>{{ p.name }}</h2><p>{{ p.text }}</p>
+    <a class="btn" href="{{ p.shop_url }}" target="_blank" rel="noopener">{{ p.shop_label }}</a></div>
+  {% if p.video %}<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/{{ p.video }}" title="{{ p.name }}" loading="lazy" allowfullscreen></iframe></div>{% endif %}
+</section>
+{% endfor %}
+{% endblock %}

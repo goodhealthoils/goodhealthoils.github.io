@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if title %}{{ title }} | {% endif %}{{ site.name }}</title>
+<meta name="description" content="{{ site.name }} - {{ site.owner_name }}, {{ site.tagline }}. Monthly dōTERRA promotions, education and wholesale shopping.">
+{% if noindex %}<meta name="robots" content="noindex">{% endif %}
+<link rel="icon" href="{{ root }}assets/img/brand/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ root }}assets/css/site.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="{{ root }}"><img src="{{ root }}assets/img/brand/mark.webp" alt="" width="40" height="40"><span>{{ site.name }}</span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Menu"><span></span><span></span><span></span></button>
+    <nav id="site-nav" class="site-nav">
+      {% for n in site.nav %}<a href="{{ root }}{{ n.url.lstrip('/') }}"{% if current == n.url %} aria-current="page"{% endif %}>{{ n.label }}</a>{% endfor %}
+    </nav>
+  </div>
+</header>
+<main>
+{% block content %}{% endblock %}
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="footer-cta">
+      <a class="btn btn-light" href="{{ site.links.ask }}" target="_blank" rel="noopener">Ask a Question</a>
+      <a class="btn btn-light" href="{{ site.links.consult }}" target="_blank" rel="noopener">Schedule Free Consult</a>
+    </div>
+    <p class="footer-name">{{ site.owner_name }} &middot; {{ site.tagline }}</p>
+    <p class="footer-small">&copy; {{ year }} {{ site.copyright }}</p>
+    <a class="badge" href="{{ site.links.certified_badge }}" target="_blank" rel="noopener"><img src="{{ root }}assets/img/brand/certified-site.webp" alt="dōTERRA certified site" width="64" height="64" loading="lazy"></a>
+  </div>
+</footer>
+<script src="{{ root }}assets/js/site.js" defer></script>
+</body>
+</html>

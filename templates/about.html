@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="page-head"><div class="wrap"><h1>{{ page.title }}</h1></div></section>
+<section class="wrap split about">
+  <div class="split-media"><img src="{{ root }}{{ page.photo }}" alt="{{ site.owner_name }}"><p class="photo-cap"><strong>{{ site.owner_name }}</strong><br>{{ site.rank }}</p></div>
+  <div class="split-text">
+    {% for p in page.paragraphs %}<p>{{ p }}</p>{% endfor %}
+    <div class="cta-row"><a class="btn" href="{{ site.links.consult }}" target="_blank" rel="noopener">Schedule Free Consult</a><a class="btn btn-outline" href="{{ site.links.ask }}" target="_blank" rel="noopener">Ask Me a Question</a></div>
+  </div>
+</section>
+{% endblock %}

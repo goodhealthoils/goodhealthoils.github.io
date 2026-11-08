@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% from "macros.html" import card, ext, src %}
+{% set d = promo.detail %}
+{% block content %}
+<section class="page-head">
+  <div class="wrap split">
+    <a class="split-media"{{ ext(d.hero_url) }}><img src="{{ src(root, d.hero_image) }}" alt="{{ d.title }}"></a>
+    <div class="split-text">
+      <h1>{{ d.title }}</h1>
+      {% if d.subtitle %}<p class="kicker">{{ d.subtitle }}</p>{% endif %}
+      {% for para in d.intro or [] %}<p>{{ para }}</p>{% endfor %}
+      <div class="cta-row">{% for l in d.links or [] %}<a class="btn{% if not loop.first %} btn-outline{% endif %}"{{ ext(l.url) }}>{{ l.label }}</a>{% endfor %}</div>
+    </div>
+  </div>
+</section>
+{% if d['items'] %}
+<section class="wrap">
+  <div class="grid grid-3">{% for it in d['items'] %}{{ card(root, it) }}{% endfor %}</div>
+</section>
+{% endif %}
+{% endblock %}

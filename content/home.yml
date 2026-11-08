@@ -1,0 +1,22 @@
+# Home page. The promotion sections come from content/promos/*.yml (see CLAUDE.md).
+tiles:
+  - {label: Learn, url: /learn/, image: assets/img/home/tile-learn.webp}
+  - {label: How to Use Our Products, url: /how-to-use/, image: assets/img/home/tile-how-to-use.webp}
+  - {label: Shop, url: /shop/, image: assets/img/home/tile-shop.webp}
+  - {label: About, url: /about/, image: assets/img/home/tile-about.webp}
+# Always-on cards shown after the promotions.
+evergreen:
+  - title: Yearly Renewal Free Oil
+    subtitle: Free Rosemary with Renewal
+    image: assets/img/home/renewal-rosemary-2026.webp
+    url: https://www.doterra.com/US/en/p/rosemary-oil?OwnerID=88739
+    text: >-
+      Every year when you renew your doTERRA wholesale account to keep your 25% off retail pricing, you get a free oil.
+      In the past it has been Peppermint, and in 2025 SuperMint, but this year it's a free ROSEMARY!
+  - title: Refer A Friend
+    subtitle: Share, they save, you earn
+    image: assets/img/home/refer-a-friend.webp
+    url: https://www.doterra.com/US/en/refer?OwnerID=88739
+    text: >-
+      Do you love doTERRA products and enjoy sharing them? With the Refer-a-Friend program you SHARE your link with friends,
+      they receive FREE membership, and you EARN doTERRA dollars.

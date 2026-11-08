@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="page-head"><div class="wrap">
+  <h1>{{ page.title }}</h1>
+  <p class="kicker">{{ page.headline }}</p>
+  <div class="cta-row"><a class="btn" href="{{ site.links.create_account }}" target="_blank" rel="noopener">Create an Account</a><a class="btn btn-outline" href="{{ page.catalog_url }}" target="_blank" rel="noopener">See the Entire Catalog</a></div>
+  <ol class="steps">{% for s in page.steps %}<li>{{ s }}</li>{% endfor %}</ol>
+</div></section>
+<nav class="wrap toc">{% for s in page.sections %}<a href="#{{ s.title|lower|replace(' ','-')|replace(',','') }}">{{ s.title }}</a>{% endfor %}</nav>
+{% for s in page.sections %}
+<section class="wrap shop-sec" id="{{ s.title|lower|replace(' ','-')|replace(',','') }}">
+  <h2>{{ s.title }}</h2>
+  {% if s.note %}<p class="muted">{{ s.note }}</p>{% endif %}
+  <div class="grid grid-4">
+  {% for it in s['items'] %}
+    <article class="product">
+      <a href="{{ it.url }}" target="_blank" rel="noopener"><img src="{{ root }}{{ it.image }}" alt="{{ it.name }}" loading="lazy"></a>
+      <h3>{{ it.name }}</h3><p class="card-price">{{ it.price }}</p>
+      <a class="btn btn-small" href="{{ it.url }}" target="_blank" rel="noopener">{{ it.button }}</a>
+    </article>
+  {% endfor %}
+  </div>
+</section>
+{% endfor %}
+{% endblock %}

@@ -1,0 +1,30 @@
+title: 90 Day Reset Challenge
+hero: {image: assets/img/reset/hero.webp, url: "https://www.doterra.com/US/en/90-day-reset-challenge-participants"}
+what_it_is:
+  - The 90-Day Reset Challenge is a simple guided program designed to help you establish foundational wellness with proven doTERRA products and principles.
+  - Rather than chasing symptoms or quick fixes like so many supposed health solutions, this Reset program focuses on meeting your body's root needs—nutrition, digestion, energy, and healthy elimination—while helping you build daily habits that support long-term wellness.*
+  - Whether you're new to doTERRA or ready to recommit to your wellness routine, the 90-Day Reset meets you where you are and gives you a clear path forward.
+  - You're just 90 days away from resetting your full bio terrain. Are you ready to start?
+start:
+  - {title: Start Here, text: "Take the Wellness Lifestyle Assessment to get your starting point for the challenge.", image: assets/img/reset/assessment.webp, url: "https://1drv.ms/b/c/f35dce335b35f7bb/IQAbqDOA0XYhQ5pTF8nlPtoqAfUjrTgy4vopn4rC-l5GZv0?e=feSVJ1"}
+  - {title: Order All Three Months, text: "You'll receive all three months of the program, shipped to you each month on your set loyalty date.", image: assets/img/reset/order-all.webp, url: "https://link.doterra.com/6m1rnK"}
+months:
+  - name: Month 1 - Prepare
+    text: You focus on digestion, daily nutrition, and energy, laying the groundwork for what comes next.*
+    cards:
+      - {title: Checklist, text: "Print this out to keep track of your daily progress.", image: assets/img/reset/m1-checklist.webp, url: "https://1drv.ms/b/c/f35dce335b35f7bb/IQCz9Fd7t6ZBQaQ2S7J3JkPhAQGn3Umyn2nK1M3ldK8Tmog?e=ZW7POL"}
+      - {title: About, text: "A deep dive into everything about Month 1.", image: assets/img/reset/m1-about.webp, url: "https://1drv.ms/b/c/f35dce335b35f7bb/IQAY3m8qLjrtTIVLv2EABQe7ASDcv1q9H5AVufdXWW3kRKw?e=1MZeUC"}
+      - {title: Order, text: "Also included are TerraZyme and RevitaZen oil to help with the challenge.", image: assets/img/reset/m1-order.webp, url: "https://link.doterra.com/Tnx8FX"}
+  - name: Month 2 - Cleanse
+    text: You support your body's natural elimination processes while maintaining the strong foundation you've built.*
+    cards:
+      - {title: Checklist, text: "Print this out to keep track of your daily progress.", image: assets/img/reset/m2-checklist.webp, url: "https://1drv.ms/b/c/f35dce335b35f7bb/IQBzDRw7z_e2TrHjguX6usgYAYc5T9saQn3uOMxgNtuCVEo?e=ah4RbY"}
+      - {title: About, text: "A deep dive into everything about Month 2.", image: assets/img/reset/m2-about.webp, url: "https://1drv.ms/b/c/f35dce335b35f7bb/IQD75f288Vk0RpJIhDr-Yo3EATzc29DeWIxEAQr6Oksnlj4?e=p6OpaI"}
+      - {title: Order, text: "Order link coming soon.", image: assets/img/reset/m2-order.webp}   # TODO: Stephne to supply Month 2 order link
+  - name: Month 3 - Renew
+    text: Restore balance, promote cellular renewal, and establish a routine that supports long-term wellness.*
+    cards:
+      - {title: Checklist, text: "Print this out to keep track of your daily progress.", image: assets/img/reset/m3-checklist.webp, url: "https://1drv.ms/b/c/f35dce335b35f7bb/IQDpFF6EwH5mQqpfK2p5XciYAQJAENOik2rujr83VuPQwKM?e=HFJcbN"}
+      - {title: About, text: "A deep dive into everything about Month 3.", image: assets/img/reset/m3-about.webp, url: "https://1drv.ms/b/c/f35dce335b35f7bb/IQDpFF6EwH5mQqpfK2p5XciYAQJAENOik2rujr83VuPQwKM?e=SUu5pZ"}   # NOTE: same document as the checklist on the old site
+      - {title: Order, text: "Order link coming soon.", image: assets/img/reset/m3-order.webp}   # TODO: Stephne to supply Month 3 order link
+disclaimer: "*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease."

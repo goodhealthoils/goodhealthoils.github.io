@@ -1,0 +1,104 @@
+# ARCHIVE - Holiday 2025 (old hidden page "Holiday 2025")
+slug: holiday-2025
+type: seasonal
+show_on_home: false
+start: '2025-11-01'
+end: '2025-12-31'
+home_card:
+  image: assets/img/promos/holiday-2025/00.webp
+  title: Holiday Products 2025
+  caption: While supplies last
+detail:
+  title: Holiday Products 2025
+  subtitle: While Supplies Last
+  hero_image: assets/img/promos/holiday-2025/00.webp
+  hero_url: https://www.doterra.com/US/en/pl/holiday-offers?OwnerID=88739
+  intro:
+  - Ready for the Holidays??? Here's a great way to get yourself ready and grab a few stocking stuffers and gifts at the same time!
+  - There are some old favorites mixed with some amazing new ones!
+  - 'While Supplies Last: Hurry, grab your favorites before it''s too late.'
+  links:
+  - label: View the Holiday Brochure
+    url: https://1drv.ms/b/c/f35dce335b35f7bb/EbA_c70y8_VOrN5QL3sleCEBu5jXgvGtUjeics52dqAJTQ?e=Iv5Cd7
+  items:
+  - title: Holiday Joy 15mL
+    image: assets/img/promos/holiday-2025/01.webp
+    price: Wholesale $28.50 | 28.50 PV
+    availability: Available November 1
+    url: https://www.doterra.com/US/en/pl/holiday-offers?OwnerID=88739
+    status: 75% SOLD OUT
+  - title: Yule Log 15mL
+    image: assets/img/promos/holiday-2025/02.webp
+    price: Wholesale $28.50 | 28.50 PV
+    availability: Available November 1
+    url: https://www.doterra.com/US/en/pl/holiday-offers?OwnerID=88739
+    status: 75% SOLD OUT
+  - title: Holiday Peace 15mL
+    image: assets/img/promos/holiday-2025/03.webp
+    price: Wholesale $28.50 | 28.5 PV
+    availability: Available November 1
+    url: https://www.doterra.com/US/en/pl/holiday-offers?OwnerID=88739
+    status: 75% SOLD OUT
+  - title: Winterberry 15mL
+    image: assets/img/promos/holiday-2025/04.webp
+    price: Wholesale $32 | 32 PV
+    availability: Available November 1
+    url: https://www.doterra.com/US/en/pl/holiday-offers?OwnerID=88739
+    status: SOLD OUT
+  - title: Escape Series Trio 5mL
+    image: assets/img/promos/holiday-2025/05.webp
+    price: Wholesale $35 | 27 PV
+    availability: Available November 1
+    url: https://www.doterra.com/US/en/pl/holiday-offers?OwnerID=88739
+  - title: Lumist Silver Diffuser & Holiday Joy
+    image: assets/img/promos/holiday-2025/06.webp
+    price: Wholesale $59.50 | 30 PV
+    availability: Available November 1
+    url: https://www.doterra.com/US/en/pl/holiday-offers?OwnerID=88739
+    status: 75% SOLD OUT
+  - title: Lemon Lime Drops
+    image: assets/img/promos/holiday-2025/07.webp
+    price: Wholesale $14.50 | 10 PV
+    availability: Available November 1
+    url: https://www.doterra.com/US/en/pl/holiday-offers?OwnerID=88739
+    status: 50% SOLD OUT
+  - title: Cinnamon Drops
+    image: assets/img/promos/holiday-2025/08.webp
+    price: Wholesale $14.50 | 10 PV
+    availability: Available November 1
+    url: https://www.doterra.com/US/en/pl/holiday-offers?OwnerID=88739
+    status: 50% SOLD OUT
+  - title: Lavender Honey
+    image: assets/img/promos/holiday-2025/09.webp
+    price: Wholesale $18.50 | 10 PV
+    availability: Available November 1
+    url: https://www.doterra.com/US/en/pl/holiday-offers?OwnerID=88739
+    status: SOLD OUT
+  - title: Owl Diffuser & Calmer
+    image: assets/img/promos/holiday-2025/10.webp
+    price: Wholesale $55 | 20 PV
+    availability: Available November 1
+    url: https://www.doterra.com/US/en/pl/holiday-offers?OwnerID=88739
+    status: 50% SOLD OUT
+  - title: On Guard Hand Wash Kit
+    image: assets/img/promos/holiday-2025/11.webp
+    price: Wholesale $29.50 | 23 PV
+    availability: Available November 1
+    url: https://www.doterra.com/US/en/pl/holiday-offers?OwnerID=88739
+    status: 50% SOLD OUT
+  - title: Vanilla Dream Hand Cream
+    image: assets/img/promos/holiday-2025/12.webp
+    price: Wholesale $14.50 | 10 PV
+    availability: Available November 1
+    url: https://www.doterra.com/US/en/pl/holiday-offers?OwnerID=88739
+    status: SOLD OUT
+  - title: Vanilla Dream Restorative Lip Balm
+    image: assets/img/promos/holiday-2025/13.webp
+    price: Wholesale $10 | 8 PV
+    availability: Available December 1
+    url: https://www.doterra.com/US/en/pl/holiday-offers?OwnerID=88739
+  - title: Wassail - Infused with doTERRA On Guard
+    image: assets/img/promos/holiday-2025/14.webp
+    price: Wholesale $19.50 | 12 PV
+    availability: Available December TBD
+    url: https://www.doterra.com/US/en/pl/holiday-offers?OwnerID=88739

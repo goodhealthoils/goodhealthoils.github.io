@@ -1,0 +1,37 @@
+# MONTHLY promotions (Product of the Month + regular offers). One file per month.
+slug: 2026-11-monthly
+type: monthly
+month: November 2026
+show_on_home: true
+banner:                      # wide banner at the top of the promotions section (OneDrop by default)
+  image: assets/img/promos/2026-11/banner.webp
+  alt: November 2026 promotions - Product of the Month Adaptiv 5 mL and the 2026 Holiday Collection
+  url: https://www.doterra.com/US/en/promotions?OwnerID=88739
+banner_options:              # the 3 style choices shown at /promos/<slug>/banner-options/
+  - {label: A, image: assets/img/promos/2026-11/banner-option-a.webp, note: "Holiday-forward watercolor leaves with the 2026 Holiday Collection (OneDrop, Jan Kohler)"}
+  - {label: B, image: assets/img/promos/2026-11/banner-option-b.webp, note: "Classic elegant - Hello November serif with autumn botanicals (OneDrop, Jess Tunis)"}
+  - {label: C, image: assets/img/promos/2026-11/banner-option-c.webp, note: "Mix it up - playful colorful lettering like your October banner (OneDrop, Jess Tunis)"}
+intro: Celebrate holiday moments, start new traditions, and find a little wonder in your everyday routine.
+items:                       # one picture card per promotion; picture opens url in a new tab
+  - title: Adaptiv 5 mL
+    subtitle: FREE with a 125 PV LRP order, Nov 1-15
+    image: assets/img/promos/2026-11/adaptiv-pom.webp
+    url: https://www.doterra.com/US/en/p/adaptiv-oil?OwnerID=88739
+    text: >-
+      Get Adaptiv 5 mL FREE when your 125 PV Loyalty Rewards order processes November 1-15, or anytime this month with a
+      Foundational Wellness Bundle purchase. Adaptiv Calming Blend helps you feel calm and steady when life gets busy.
+  - title: Midnight Forest
+    subtitle: Still available while supplies last
+    image: assets/img/promos/2026-11/midnight-forest.webp
+    url: https://www.doterra.com/US/en/p/midnight-forest-oil?OwnerID=88739
+    text: >-
+      Bring the deep, woodsy aroma of Siberian Fir, Wild Orange and Frankincense home. Diffuse it for a grounding,
+      peaceful atmosphere even when you can't get outside.
+  - title: New Products
+    subtitle: IKISE skincare, Pocket Diffusers and more
+    image: assets/img/promos/2026-11/new-products.webp
+    url: https://www.doterra.com/US/en/pl/new-products?OwnerID=88739
+    text: >-
+      Find your new favorites from this year's convention, including the IKISE skincare ritual, Pocket Diffusers,
+      the new InTune formula and stick, and the On Guard Stick with Echinacea.
+footnote: Also this month - Targeted Solutions bundles for sleep, focus, digestion, immunity and skin, and the Nature's Rx Kit. Offers valid in the US while supplies last.

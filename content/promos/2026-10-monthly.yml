@@ -1,0 +1,13 @@
+# ARCHIVE - October 2026 monthly promotions (kept for reference, not on the home page).
+slug: 2026-10-monthly
+type: monthly
+month: October 2026
+show_on_home: false
+banner: {image: assets/img/promos/2026-10/banner.webp, alt: October promos, url: "https://www.doterra.com/US/en/promotions?OwnerID=88739"}
+items:
+  - {title: Serenity 5mL, subtitle: FREE with 125pv on LRP, image: assets/img/promos/2026-10/serenity-pom.webp, url: "https://www.doterra.com/US/en/p/doterra-serenity-oil?OwnerID=88739"}
+  - {title: FREE Bergamot & Shinrin Yoku, subtitle: with a 200 PV order, image: assets/img/promos/2026-10/bergamot-shinrin-yoku-200pv.webp, url: "https://www.doterra.com/US/en/200-pv-promotion?OwnerID=88739"}
+  - {title: LTO Midnight Forest, image: assets/img/promos/2026-10/midnight-forest.webp, url: "https://www.doterra.com/US/en/p/midnight-forest-oil?OwnerID=88739"}
+  - {title: Salon Essentials is BACK!, subtitle: for a limited time, image: assets/img/promos/2026-10/salon-essentials.webp, url: "https://www.doterra.com/US/en/p/salon-essentials-set-convention?OwnerID=88739"}
+  - {title: Pocket Diffusers, subtitle: NEW and for a Limited Time, image: assets/img/promos/2026-10/pocket-diffusers.webp, url: "https://www.doterra.com/US/en/pl/limited-time-offers?OwnerID=88739"}
+  - {title: New Products from Convention!, image: assets/img/promos/2026-10/new-products.webp, url: "https://www.doterra.com/US/en/pl/new-products?OwnerID=88739"}

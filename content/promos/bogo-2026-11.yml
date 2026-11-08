@@ -1,0 +1,18 @@
+# BOGO promotion. Turn on (show_on_home: true) once doTERRA announces this year's BOGO week and the pairings.
+slug: bogo-2026-11
+type: bogo
+show_on_home: false
+start: 2026-11-16      # TODO confirm dates when announced
+end: 2026-11-20
+home_card:
+  image: assets/img/promos/bogo-2026-11/hero.webp
+  title: BOGO Week
+  caption: Buy one, get one FREE - this week only
+detail:
+  title: Double the Wellness!
+  subtitle: BOGO week - while supplies last
+  hero_image: assets/img/promos/bogo-2026-11/hero.webp
+  hero_url: https://www.doterra.com/US/en/bogo?OwnerID=88739
+  intro:
+    - Just add the paid item to your cart and the free item is added automatically.
+  items: []

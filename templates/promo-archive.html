@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="wrap page-pad">
+  <h1>All Promotions</h1>
+  <ul class="archive">
+  {% for p in promos|sort(attribute='slug', reverse=true) %}
+    <li><strong>{{ p.slug }}</strong> ({{ p.type }}{% if p.show_on_home %}, on home page{% endif %})
+      {% if p.has_page %} - <a href="{{ root }}promos/{{ p.slug }}/">detail page</a>{% endif %}</li>
+  {% endfor %}
+  </ul>
+</section>
+{% endblock %}

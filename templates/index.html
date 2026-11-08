@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% from "macros.html" import card, feature, ext, src %}
+{% block content %}
+<section class="hero">
+  <div class="wrap hero-inner">
+    <img class="hero-logo" src="{{ root }}assets/img/brand/logo-tree.webp" alt="Good Health Oils - Stephne Hilgendorf, a dōTERRA Wellness Advocate" width="320">
+    <p class="hero-tag">Natural wellness for your home and family, with personal guidance from {{ site.owner_name }}.</p>
+    <div class="cta-row">
+      <a class="btn" href="{{ site.links.consult }}" target="_blank" rel="noopener">Schedule Free Consult</a>
+      <a class="btn btn-outline" href="{{ site.links.ask }}" target="_blank" rel="noopener">Ask a Question</a>
+    </div>
+  </div>
+</section>
+
+<section class="wrap tiles">
+  {% for t in page.tiles %}
+  <a class="tile" href="{{ root }}{{ t.url.lstrip('/') }}"><img src="{{ root }}{{ t.image }}" alt="" loading="lazy"><span>{{ t.label }}</span></a>
+  {% endfor %}
+</section>
+
+<section class="promos" id="promotions">
+  <div class="wrap">
+    <h2 class="section-title">This Month's Promotions</h2>
+    {% for p in promos.monthly %}
+      {% if p.banner %}<a class="banner"{{ ext(p.banner.url) }}><img src="{{ src(root, p.banner.image) }}" alt="{{ p.banner.alt or p.month }}"></a>{% endif %}
+      {% if p.intro %}<p class="lead">{{ p.intro }}</p>{% endif %}
+      <p class="newsletter-link"><a href="{{ root }}newsletter/">Read the {{ p.month }} newsletter &rarr;</a></p>
+      <div class="grid grid-3">
+        {% for it in p['items'] %}{{ card(root, it) }}{% endfor %}
+      </div>
+      {% if p.footnote %}<p class="fine">{{ p.footnote }}</p>{% endif %}
+    {% endfor %}
+  </div>
+</section>
+
+{% if promos.seasonal %}
+<section class="promos promos-seasonal">
+  <div class="wrap">
+    <h2 class="section-title">Holiday &amp; Seasonal</h2>
+    {% for p in promos.seasonal %}{{ feature(root, p, 'Limited time') }}{% endfor %}
+  </div>
+</section>
+{% endif %}
+
+{% if promos.bogo %}
+<section class="promos promos-bogo">
+  <div class="wrap">
+    <h2 class="section-title">BOGO Week</h2>
+    {% for p in promos.bogo %}{{ feature(root, p, 'Buy one, get one free') }}{% endfor %}
+  </div>
+</section>
+{% endif %}
+
+<section class="wrap evergreen">
+  <div class="grid grid-2">
+    {% for it in page.evergreen %}{{ card(root, it) }}{% endfor %}
+  </div>
+</section>
+{% endblock %}

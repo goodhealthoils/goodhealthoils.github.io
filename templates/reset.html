@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% from "macros.html" import card %}
+{% block content %}
+<section class="page-head"><div class="wrap split">
+  <a class="split-media" href="{{ page.hero.url }}" target="_blank" rel="noopener"><img src="{{ root }}{{ page.hero.image }}" alt="90 Day Reset Challenge"></a>
+  <div class="split-text"><h1>{{ page.title }}</h1><p class="kicker">What it is</p>{% for p in page.what_it_is %}<p>{{ p }}</p>{% endfor %}</div>
+</div></section>
+<section class="wrap"><div class="grid grid-2">{% for c in page.start %}{{ card(root, c) }}{% endfor %}</div></section>
+{% for m in page.months %}
+<section class="wrap reset-month"><h2>{{ m.name }}</h2><p class="lead">{{ m.text }}</p>
+  <div class="grid grid-3">{% for c in m.cards %}{{ card(root, c) }}{% endfor %}</div></section>
+{% endfor %}
+<section class="wrap"><p class="fine">{{ page.disclaimer }}</p></section>
+{% endblock %}

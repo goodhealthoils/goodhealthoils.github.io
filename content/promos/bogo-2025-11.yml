@@ -1,0 +1,46 @@
+# ARCHIVE - BOGO November 2025 (old hidden page "BOGO November 2025")
+slug: bogo-2025-11
+type: bogo
+show_on_home: false
+start: '2025-11-17'
+end: '2025-11-21'
+home_card:
+  image: assets/img/promos/bogo-2025-11/00.webp
+  title: BOGO Week 11/17 - 11/21
+  caption: Double the Wellness!
+detail:
+  title: Double the Wellness!
+  subtitle: 11/17/25 - 11/21/25 - BOGO's are BACK!
+  hero_image: assets/img/promos/bogo-2025-11/00.webp
+  hero_url: https://www.doterra.com/US/en/bogo?OwnerID=88739
+  intro:
+  - This week 11/17-11/21 (while supplies last) we have some great pairings of some of our favorite essential oils and natural products.
+  - If you're just getting started with doTERRA, bundling them all together gives you a great deal! Click the picture to get started.
+  - If you're looking for individual pairings, check out the pictures below. Just add the paid item to your cart, and the free item will be added automatically. Order the BOGO Bundle and you will be sent a NAVY NEOPRENE BAG for free (up to 5 times). And any order of 175 PV this week gets FREE Clove 15mL, Wild Orange 15mL and Siberian Fir 15mL (one time per account).
+  - Whatever you choose, we've got some great deals this week! Please message me with any questions you may have!
+  links:
+  - label: Get the BOGO E-Book
+    url: https://issuu.com/doterra-living/docs/november_2025_bogo_ebook_us-en_v6
+  items:
+  - title: Adaptiv 15mL for $44, Get Shinrin-Yoku FREE
+    image: assets/img/promos/bogo-2025-11/01.webp
+    url: https://www.doterra.com/US/en/bogo?OwnerID=88739
+  - title: Copaiba 15mL $39, Get Deep Blue 5mL FREE
+    image: assets/img/promos/bogo-2025-11/02.webp
+    url: https://www.doterra.com/US/en/bogo?OwnerID=88739
+  - title: Lavender 15mL $29, Get Peppermint 15mL FREE
+    image: assets/img/promos/bogo-2025-11/03.webp
+    url: https://www.doterra.com/US/en/bogo?OwnerID=88739
+  - title: On Guard 15mL $39, Get Breathe 15mL FREE
+    image: assets/img/promos/bogo-2025-11/04.webp
+    url: https://www.doterra.com/US/en/bogo?OwnerID=88739
+  - title: Purify 15mL for $26, Get Tea Tree 15mL FREE
+    image: assets/img/promos/bogo-2025-11/05.webp
+    url: https://www.doterra.com/US/en/bogo?OwnerID=88739
+  - title: FREE GIFT with 175 PV
+    caption: Wild Orange 15mL, Clove 15mL AND Siberian Fir 15mL when you buy 175 PV during BOGO week (11/17-11/21)
+    image: assets/img/promos/bogo-2025-11/06.webp
+    url: https://www.doterra.com/US/en/bogo?OwnerID=88739
+  - title: BOGO E-Book
+    image: assets/img/promos/bogo-2025-11/07.webp
+    url: https://issuu.com/doterra-living/docs/november_2025_bogo_ebook_us-en_v6

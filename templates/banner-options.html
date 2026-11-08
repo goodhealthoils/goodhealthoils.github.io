@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="wrap page-pad">
+  <h1>{{ promo.month }} banner options</h1>
+  <p>Pick one and tell Claude "use option A/B/C". This page is not linked from the site.</p>
+  {% for b in promo.banner_options %}
+  <figure class="option"><figcaption><strong>Option {{ b.label }}</strong> - {{ b.note }}</figcaption><img src="{{ root }}{{ b.image }}" alt="Option {{ b.label }}"></figure>
+  {% endfor %}
+</section>
+{% endblock %}

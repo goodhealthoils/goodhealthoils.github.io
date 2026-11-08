@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="page-head"><div class="wrap"><h1>{{ page.title }}</h1>
+  <nav class="toc">{% for c in page.categories %}<a href="#{{ c.title|lower|replace(' ','-')|replace(',','') }}">{{ c.title }}</a>{% endfor %}</nav></div></section>
+{% for c in page.categories %}
+<section class="wrap learn-cat" id="{{ c.title|lower|replace(' ','-')|replace(',','') }}">
+  <h2>{{ c.title }}</h2>
+  {% if c.playlist %}<p><a href="{{ c.playlist }}" target="_blank" rel="noopener">Watch {{ c.playlist_label or 'the full playlist' }} &rarr;</a></p>{% endif %}
+  {% if c.videos %}<div class="grid grid-3">
+    {% for v in c.videos %}
+    <figure class="video-card"><a class="yt" href="https://www.youtube.com/watch?v={{ v.id }}" target="_blank" rel="noopener" data-yt="{{ v.id }}"><img src="https://i.ytimg.com/vi/{{ v.id }}/hqdefault.jpg" alt="" loading="lazy"><span class="play" aria-hidden="true"></span></a><figcaption>{{ v.title }}</figcaption></figure>
+    {% endfor %}
+  </div>{% endif %}
+</section>
+{% endfor %}
+{% endblock %}

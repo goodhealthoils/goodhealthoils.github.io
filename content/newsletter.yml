@@ -1,0 +1,5 @@
+# Monthly newsletter page. Each month: set title, replace pages (tall images, top to bottom), and the optional PDF.
+title: November 2026 Newsletter
+pdf: assets/docs/newsletter-2026-11.pdf
+pages:
+  - {image: assets/img/newsletter/2026-11/page-1.webp, url: "https://www.doterra.com/US/en/promotions?OwnerID=88739"}

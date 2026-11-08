@@ -1,0 +1,34 @@
+{% macro ext(url) %}{% if url %} href="{{ url }}" target="_blank" rel="noopener"{% endif %}{% endmacro %}
+{% macro src(root, path) %}{% if path.startswith('http') %}{{ path }}{% else %}{{ root }}{{ path }}{% endif %}{% endmacro %}
+
+{# picture card: picture (clickable, new tab) with caption below #}
+{% macro card(root, it, show_text=true) %}
+<article class="card">
+  {% if it.url %}<a class="card-media"{{ ext(it.url) }}>{% else %}<div class="card-media">{% endif %}
+    <img src="{{ src(root, it.image) }}" alt="{{ it.alt or it.title }}" loading="lazy">
+    {% if it.status %}<span class="ribbon">{{ it.status }}</span>{% endif %}
+  {% if it.url %}</a>{% else %}</div>{% endif %}
+  <div class="card-body">
+    <h3>{% if it.url %}<a{{ ext(it.url) }}>{{ it.title }}</a>{% else %}{{ it.title }}{% endif %}</h3>
+    {% if it.subtitle %}<p class="card-sub">{{ it.subtitle }}</p>{% endif %}
+    {% if it.price %}<p class="card-price">{{ it.price }}</p>{% endif %}
+    {% if it.availability %}<p class="card-avail">{{ it.availability }}</p>{% endif %}
+    {% if it.caption %}<p>{{ it.caption }}</p>{% endif %}
+    {% if show_text and it.text %}<p>{{ it.text }}</p>{% endif %}
+  </div>
+</article>
+{% endmacro %}
+
+{% macro feature(root, p, kicker) %}
+{# home-page feature for a seasonal or BOGO promo: big picture that opens its detail page in a new tab #}
+{% set url = root ~ 'promos/' ~ p.slug ~ '/' if p.has_page else p.home_card.url %}
+<a class="feature" href="{{ url }}" target="_blank" rel="noopener"{% if p.start %} data-start="{{ p.start }}"{% endif %}{% if p.end %} data-end="{{ p.end }}"{% endif %}>
+  <img src="{{ src(root, p.home_card.image) }}" alt="{{ p.home_card.title }}" loading="lazy">
+  <div class="feature-text">
+    <span class="kicker">{{ kicker }}</span>
+    <h3>{{ p.home_card.title }}</h3>
+    {% if p.home_card.caption %}<p>{{ p.home_card.caption }}</p>{% endif %}
+    <span class="link-arrow">See every offer &rarr;</span>
+  </div>
+</a>
+{% endmacro %}

@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% from "macros.html" import ext %}
+{% block content %}
+<section class="page-head"><div class="wrap"><h1>{{ page.title }}</h1>{% if page.pdf %}<p><a class="btn btn-outline" href="{{ root }}{{ page.pdf }}" target="_blank" rel="noopener">Download PDF</a></p>{% endif %}</div></section>
+<section class="wrap newsletter">
+  {% for pg in page.pages %}{% if pg.url %}<a{{ ext(pg.url) }}>{% endif %}<img src="{{ root }}{{ pg.image }}" alt="{{ page.title }} page {{ loop.index }}" loading="lazy">{% if pg.url %}</a>{% endif %}{% endfor %}
+</section>
+{% endblock %}

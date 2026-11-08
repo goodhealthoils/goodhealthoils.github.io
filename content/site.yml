@@ -1,0 +1,23 @@
+# Site-wide settings. Every doterra.com link should end with ?OwnerID=88739 so orders credit Stephne.
+name: Good Health Oils
+owner_name: Stephne Hilgendorf
+tagline: a dōTERRA Wellness Advocate
+rank: dōTERRA Diamond
+owner_id: "88739"
+domain: www.goodhealthoils.com
+copyright: Good Health Oils, LLC.
+links:
+  ask: https://docs.google.com/forms/d/e/1FAIpQLSdXjcwQ4t8o9n4gA4EouiuT6xB4CdmT4KgTnSfoTlj26nhlPA/viewform?usp=sf_link
+  consult: https://calendly.com/goodhealthoils/freeoilconsult
+  create_account: https://referral.doterra.me/88739
+  catalog: https://www.doterra.com/US/en/shop-home?OwnerID=88739
+  promotions: https://www.doterra.com/US/en/promotions?OwnerID=88739
+  certified_badge: https://u1949579.ct.sendgrid.net/ls/click?upn=jI1qjxyAo76e8tKDKmvtZP1axitgEGGaFmGpR9oOmg6AL5moYnW7K7NX-2B3xwcTl7jX2m7bLWHsvnoV6vamP9f2t78yfTTb9uahdcMUSrrYRIXrN04Tma8GeJU0hjtSFu8096_YCldG6P-2FQMd8SYCQemR86YWyjGJmFZ9kCkE6n3g8URu3mvzUjyMNbK2bLbH7YgxXYV3Xl7RmjDVV4LBWTQxgEv6iky9tV36n31no5oNM3JydEdbkboEZDmfCgwbJw9nkO75wf15QwtdZH8VE9VV41ffv9XW16e8pT-2BZnchOnOvF-2FmgIFdp6Xk2tZz-2BoIrjQkGUV4sXKYYhqSeZpd9HHkfuhXbvjU6MhAnCQLabQALZo-3D
+nav:
+  - {label: Home, url: /}
+  - {label: About, url: /about/}
+  - {label: How To Use, url: /how-to-use/}
+  - {label: Newsletter, url: /newsletter/}
+  - {label: Learn, url: /learn/}
+  - {label: Shop, url: /shop/}
+  - {label: 90 Day Reset, url: /90-day-reset/}

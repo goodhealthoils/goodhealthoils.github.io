@@ -1,0 +1,283 @@
+title: Shop
+headline: Brand NEW - Wholesale Prices for Everyone!
+steps:
+- Click "View Info / Add to Cart" below any product to see more info.
+- Add it to your cart from the info page that opens.
+- Sign up for an account at checkout and your membership fee will be waived.
+catalog_url: https://www.doterra.com/US/en/shop-home?OwnerID=88739
+sections:
+- title: Cleaning with On Guard
+  items:
+  - name: Laundry Detergent - 32 fl oz
+    price: $36.00
+    url: https://www.doterra.com/US/en/p/doterra-on-guard-laundry-detergent?OwnerID=88739
+    image: assets/img/shop/00.webp
+    button: View Info / Add to Cart
+  - name: Toothpaste - 4.2 oz
+    price: $12.00
+    url: https://www.doterra.com/US/en/p/doterra-on-guard-natural-whitening-toothpaste?OwnerID=88739
+    image: assets/img/shop/01.webp
+    button: View Info / Add to Cart
+  - name: Cleaner Concentrate - 12 fl oz
+    price: $18.00
+    url: https://www.doterra.com/US/en/p/onguard-cleaner-concentrate?OwnerID=88739
+    image: assets/img/shop/02.webp
+    button: View Info / Add to Cart
+  - name: Cleaning Bundle
+    price: $66.00
+    url: https://link.doterra.com/ZSEtM4
+    image: assets/img/shop/03.webp
+    button: Add to Cart
+  - name: abōde Laundry Detergent - 45 count
+    price: $22.50
+    url: https://www.doterra.com/US/en/p/abode-laundry-pods?OwnerID=88739
+    image: assets/img/shop/04.webp
+    button: View Info / Add to Cart
+  - name: abōde Liquid Dish Soap - 16 oz
+    price: $13.00
+    url: https://www.doterra.com/US/en/p/doterra-abode-dish-soap?OwnerID=88739
+    image: assets/img/shop/05.webp
+    button: View Info / Add to Cart
+  - name: abōde Multi Purpose Cleaner Concentrate - 1 fl oz
+    price: $9.25
+    url: https://www.doterra.com/US/en/p/abode-multi-purpose-surface-cleaner-concentrate?OwnerID=88739
+    image: assets/img/shop/06.webp
+    button: View Info / Add to Cart
+  - name: abōde Foaming Hand Wash with Citrus Bloom Concentrate
+    price: $22.00
+    url: https://www.doterra.com/US/en/p/abode-foaming-handwash-concentrate-with-citrus-bloom?OwnerID=88739
+    image: assets/img/shop/07.webp
+    button: View Info / Add to Cart
+- title: Muscle, Joint, and Fitness
+  items:
+  - name: Deep Blue Stick - 1.7 fl oz
+    price: $28.50
+    url: https://www.doterra.com/US/en/p/deep-blue-stick?OwnerID=88739
+    image: assets/img/shop/08.webp
+    button: View Info / Add to Cart
+  - name: Copaiba 15 mL
+    price: $39.00
+    url: https://www.doterra.com/US/en/p/copaiba-oil?OwnerID=88739
+    image: assets/img/shop/09.webp
+    button: View Info / Add to Cart
+  - name: Breathe 15 mL
+    price: $29.00
+    url: https://www.doterra.com/US/en/p/breathe-respiratory-blend-oil?OwnerID=88739
+    image: assets/img/shop/10.webp
+    button: View Info / Add to Cart
+  - name: Simple Solutions Kit
+    price: $110.00
+    url: https://link.doterra.com/eu8EF0
+    image: assets/img/shop/11.webp
+    button: Add to Cart
+- title: Stress
+  items:
+  - name: Adaptiv 15 mL
+    price: $44.00
+    url: https://www.doterra.com/US/en/p/adaptiv-oil?OwnerID=88739
+    image: assets/img/shop/12.webp
+    button: View Info / Add to Cart
+  - name: Adaptiv Touch 10 mL
+    price: $27.00
+    url: https://www.doterra.com/US/en/p/adaptiv-touch-oil?OwnerID=88739
+    image: assets/img/shop/13.webp
+    button: View Info / Add to Cart
+  - name: Adaptiv Capsules (30)
+    price: $42.00
+    url: https://www.doterra.com/US/en/p/adaptiv-oil-capsules?OwnerID=88739
+    image: assets/img/shop/14.webp
+    button: View Info / Add to Cart
+  - name: Adaptiv System
+    price: $93.00
+    url: https://www.doterra.com/US/en/p/adaptiv-system?OwnerID=88739
+    image: assets/img/shop/15.webp
+    button: View Info / Add to Cart
+- title: Emotions
+  items:
+  - name: Lavender 15 mL
+    price: $29.00
+    url: https://www.doterra.com/US/en/p/lavender-oil?OwnerID=88739
+    image: assets/img/shop/16.webp
+    button: View Info / Add to Cart
+  - name: Wild Orange 15 mL
+    price: $13.00
+    url: https://www.doterra.com/US/en/p/wild-orange-oil?OwnerID=88739
+    image: assets/img/shop/17.webp
+    button: View Info / Add to Cart
+  - name: Balance 15 mL
+    price: $26.00
+    url: https://www.doterra.com/US/en/p/balance-grounding-blend-oil?OwnerID=88739
+    image: assets/img/shop/18.webp
+    button: View Info / Add to Cart
+  - name: Laluz Diffuser + Lavender 15 mL + Lemon 15 mL
+    price: $68.50
+    url: https://www.doterra.com/US/en/p/laluz-diffuser-bundle?OwnerID=88739
+    image: assets/img/shop/19.webp
+    button: View Info / Add to Cart
+- title: Sleep
+  items:
+  - name: Serenity Softgels (60)
+    price: $28.00
+    url: https://www.doterra.com/US/en/p/doterra-serenity-restful-complex-softgels?OwnerID=88739
+    image: assets/img/shop/20.webp
+    button: View Info / Add to Cart
+  - name: Copaiba Softgels (60)
+    price: $35.50
+    url: https://www.doterra.com/US/en/p/copaiba-softgels?OwnerID=88739
+    image: assets/img/shop/21.webp
+    button: View Info / Add to Cart
+  - name: Serenity 15mL
+    price: $42.00
+    url: https://www.doterra.com/US/en/p/doterra-serenity-oil?OwnerID=88739
+    image: assets/img/shop/22.webp
+    button: View Info / Add to Cart
+  - name: Sleep Bundle + Diffuser
+    price: $138.50
+    url: https://link.doterra.com/iWoQL0
+    image: assets/img/shop/23.webp
+    button: Add to Cart
+- title: Seasonal
+  items:
+  - name: On Guard 15 mL
+    price: $39.00
+    url: https://www.doterra.com/US/en/p/on-guard-oil?OwnerID=88739
+    image: assets/img/shop/24.webp
+    button: View Info / Add to Cart
+  - name: TriEase Softgels (60)
+    price: $28.00
+    url: https://www.doterra.com/US/en/p/triease-seasonal-blend?OwnerID=88739
+    image: assets/img/shop/25.webp
+    button: View Info / Add to Cart
+  - name: Breathe 15 mL
+    price: $29.00
+    url: https://www.doterra.com/US/en/p/breathe-respiratory-blend-oil?OwnerID=88739
+    image: assets/img/shop/26.webp
+    button: View Info / Add to Cart
+  - name: Seasonal Bundle
+    price: $96.00
+    url: https://link.doterra.com/CCj7nS
+    image: assets/img/shop/27.webp
+    button: Add to Cart
+- title: Wholesale Bundles
+  note: Including 1 year of wholesale prices. Want something else, but don't need a kit? Ask a question and tell us what you'd like, or schedule a quick consult.
+  items:
+  - name: Foundational Wellness Bundle
+    price: $149.50
+    url: https://link.doterra.com/so7b4a
+    image: assets/img/shop/28.webp
+    button: Add to Cart
+  - name: Nature's Rx Kit
+    price: $149.50
+    url: https://link.doterra.com/C98U2Y
+    image: assets/img/shop/29.webp
+    button: Add to Cart
+  - name: Essential Foundations Kit
+    price: $265.00
+    url: https://link.doterra.com/Np2RSR
+    image: assets/img/shop/30.webp
+    button: Add to Cart
+  - name: Natural Solutions Kit
+    price: $280.00
+    url: https://link.doterra.com/BsW3nI
+    image: assets/img/shop/31.webp
+    button: Add to Cart
+  - name: Healthy Habits Kit
+    price: $225.00
+    url: https://link.doterra.com/vgh0T5
+    image: assets/img/shop/32.webp
+    button: Add to Cart
+  - name: Healthy Habits w/ VMG+ Kit
+    price: $225.00
+    url: https://link.doterra.com/5odi44
+    image: assets/img/shop/33.webp
+    button: Add to Cart
+  - name: AromaTouch Training Kit
+    price: $250.00
+    url: https://link.doterra.com/VmHSkX
+    image: assets/img/shop/34.webp
+    button: Add to Cart
+  - name: Simple Solutions Kit
+    price: $110.00
+    url: https://link.doterra.com/eu8EF0
+    image: assets/img/shop/35.webp
+    button: Add to Cart
+  - name: Aroma Essentials Collection
+    price: $165.00
+    url: https://link.doterra.com/iRigOn
+    image: assets/img/shop/36.webp
+    button: Add to Cart
+  - name: Cleanse & Restore Kit
+    price: $275.00
+    url: https://link.doterra.com/fJaA4v
+    image: assets/img/shop/37.webp
+    button: Add to Cart
+  - name: Home Essentials Kit
+    price: $280.00
+    url: https://link.doterra.com/SDB5IM
+    image: assets/img/shop/38.webp
+    button: Add to Cart
+  - name: Oil Collectors Kit
+    price: $2,250.00
+    url: https://link.doterra.com/z5hf51
+    image: assets/img/shop/39.webp
+    button: Add to Cart
+  - name: Metabolic Health Bundle
+    price: $75.00
+    url: https://link.doterra.com/fd3wJE
+    image: assets/img/shop/40.webp
+    button: Add to Cart
+  - name: Sleep Bundle
+    price: $60.00
+    url: https://link.doterra.com/cGyBBE
+    image: assets/img/shop/41.webp
+    button: Add to Cart
+  - name: Stress Bundle
+    price: $70.00
+    url: https://link.doterra.com/s_iKjb
+    image: assets/img/shop/42.webp
+    button: Add to Cart
+  - name: Respiratory Bundle
+    price: $75.00
+    url: https://link.doterra.com/SsOVc6
+    image: assets/img/shop/43.webp
+    button: Add to Cart
+  - name: Focus Bundle
+    price: $75.00
+    url: https://link.doterra.com/JoN1Su
+    image: assets/img/shop/44.webp
+    button: Add to Cart
+  - name: Hormone Health Bundle
+    price: $125.00
+    url: https://link.doterra.com/hKDtyK
+    image: assets/img/shop/45.webp
+    button: Add to Cart
+  - name: Immune Bundle
+    price: $70.00
+    url: https://link.doterra.com/8ugWBS
+    image: assets/img/shop/46.webp
+    button: Add to Cart
+  - name: Digestive Bundle
+    price: $70.00
+    url: https://link.doterra.com/T-NBZY
+    image: assets/img/shop/47.webp
+    button: Add to Cart
+  - name: Detox Bundle
+    price: $70.00
+    url: https://link.doterra.com/lhGSOY
+    image: assets/img/shop/48.webp
+    button: Add to Cart
+  - name: Pain Bundle
+    price: $75.00
+    url: https://link.doterra.com/acM6Ta
+    image: assets/img/shop/49.webp
+    button: Add to Cart
+  - name: Skin Bundle
+    price: $147.00
+    url: https://link.doterra.com/bC47MH
+    image: assets/img/shop/50.webp
+    button: Add to Cart
+  - name: Clean Living
+    price: $101.00
+    url: https://link.doterra.com/3Qm4IQ
+    image: assets/img/shop/51.webp
+    button: Add to Cart
