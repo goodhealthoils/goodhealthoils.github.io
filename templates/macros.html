@@ -12,6 +12,7 @@
     <h3>{% if it.url %}<a{{ ext(it.url) }}>{{ it.title }}</a>{% else %}{{ it.title }}{% endif %}</h3>
     {% if it.subtitle %}<p class="card-sub">{{ it.subtitle }}</p>{% endif %}
     {% if it.price %}<p class="card-price">{{ it.price }}</p>{% endif %}
+    {% if it.sold %}<p class="card-sold">{{ it.sold }}</p>{% endif %}
     {% if it.availability %}<p class="card-avail">{{ it.availability }}</p>{% endif %}
     {% if it.caption %}<p>{{ it.caption }}</p>{% endif %}
     {% if show_text and it.text %}<p>{{ it.text }}</p>{% endif %}

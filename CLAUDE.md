@@ -35,7 +35,7 @@ Each file in `content/promos/` has `type:` and `show_on_home:`.
    page (`/promos/<slug>/`) in a new tab. Fields: `home_card`, `detail` (title, subtitle, hero_image, intro, links, items).
 3. `bogo` - BOGO week. Same shape as seasonal. Use `start`/`end` dates (YYYY-MM-DD): the home page shows it only between those dates.
 Turn a section on or off with `show_on_home: true|false`. Optional `start`/`end` also auto-hide by date.
-Item fields: `title`, `subtitle`, `image`, `url`, `text` (longer description), `caption`, `price`, `status` (red ribbon, e.g. "SOLD OUT"), `availability`.
+Item fields: `title`, `subtitle`, `image`, `url`, `text` (longer description), `caption`, `price`, `sold` (burgundy line under the price, e.g. "40% sold as of Nov 10"), `status` (red ribbon, e.g. "SOLD OUT"), `availability`.
 
 ## Quick prompts and what to do
 - "Mark Winterberry sold out" -> add `status: SOLD OUT` to that item in the active holiday file.
