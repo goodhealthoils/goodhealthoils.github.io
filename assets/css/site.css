@@ -1,7 +1,7 @@
 /* Good Health Oils - upscale casual elegant. Edit the tokens below to restyle the whole site. */
 :root{
   --ivory:#fbf8f3; --paper:#ffffff; --blush:#f4eee8; --lav:#ece7f3; --lav-2:#a39bbf;
-  --plum:#4a3f5c; --plum-2:#5b4f7a; --ink:#2f2a36; --muted:#6d6578; --gold:#b8975a; --line:#e6dfd6; --burgundy:#7b1e3a;
+  --plum:#4a3f5c; --plum-2:#5b4f7a; --ink:#2f2a36; --muted:#6d6578; --gold:#b8975a; --line:#e6dfd6; --burgundy:#8e1b3e;
   --serif:"Cormorant Garamond",Georgia,serif; --sans:"Quicksand",system-ui,sans-serif;
   --r:16px; --shadow:0 1px 2px rgba(47,42,54,.06),0 8px 24px rgba(47,42,54,.07);
 }
@@ -74,7 +74,7 @@ a.card-media:hover img{transform:scale(1.03)}
 .card-body h3 a{text-decoration:none;color:inherit}
 .card-sub{font-weight:700;color:var(--plum-2);margin-bottom:.6em}
 .card-price{font-weight:700;color:var(--ink);margin:.2em 0}
-.card-sold{font-weight:600;color:var(--burgundy);margin:.2em 0}
+.card-body .card-sold{font-weight:700;color:var(--burgundy);margin:.2em 0}
 .card-avail{font-size:.85rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
 .card-body p:last-child{margin-bottom:0}
 .ribbon{position:absolute;top:14px;left:14px;background:#b3263a;color:#fff;font:700 .78rem var(--sans);letter-spacing:.06em;padding:6px 12px;border-radius:999px}
