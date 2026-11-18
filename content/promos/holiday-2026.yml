@@ -15,18 +15,18 @@ detail:
   hero_url: https://www.doterra.com/US/en/pl/holiday-offers?OwnerID=88739
   intro:
     - Ready for the holidays? Here's a beautiful way to get ready and grab a few stocking stuffers and gifts at the same time.
-    - Festive favorites and thoughtful gifts are available while supplies last, with a limit of four of each holiday item per account.
+    - Festive favorites and thoughtful gifts are available while supplies last, and purchase limits have now been increased to 10 of each holiday item!
   links:
     - {label: Shop the Holiday Collection, url: "https://www.doterra.com/US/en/pl/holiday-offers?OwnerID=88739"}
   items:
-    - {title: 2026 Advent Calendar - 12 Days of Wellness, image: assets/img/promos/holiday-2026/advent-calendar.webp, price: "Wholesale $125.00", url: "https://www.doterra.com/US/en/p/advent-calendar-2026?OwnerID=88739", sold: "74% sold as of Nov 16"}
-    - {title: Red Lumist + Holiday Joy, image: assets/img/promos/holiday-2026/lumist-holiday-joy.webp, price: "Wholesale $59.00", url: "https://www.doterra.com/US/en/p/lumist-diffuser-holiday-joy?OwnerID=88739", sold: "62% sold as of Nov 16"}
-    - {title: Holiday Joy 15 mL, image: assets/img/promos/holiday-2026/holiday-joy.webp, price: "Wholesale $28.50", url: "https://www.doterra.com/US/en/p/holiday-joy-oil?OwnerID=88739", sold: "73% sold as of Nov 16"}
-    - {title: Holiday Peace 15 mL, image: assets/img/promos/holiday-2026/holiday-peace.webp, price: "Wholesale $28.50", url: "https://www.doterra.com/US/en/p/doterra-holiday-peace-oil?OwnerID=88739", sold: "41% sold as of Nov 16"}
-    - {title: Winterberry 15 mL, image: assets/img/promos/holiday-2026/winterberry.webp, price: "Wholesale $32.00", url: "https://www.doterra.com/US/en/p/winterberry-oil?OwnerID=88739", sold: "64% sold as of Nov 16"}
+    - {title: 2026 Advent Calendar - 12 Days of Wellness, image: assets/img/promos/holiday-2026/advent-calendar.webp, price: "Wholesale $125.00", url: "https://www.doterra.com/US/en/p/advent-calendar-2026?OwnerID=88739", sold: "78% sold as of Nov 18"}
+    - {title: Red Lumist + Holiday Joy, image: assets/img/promos/holiday-2026/lumist-holiday-joy.webp, price: "Wholesale $59.00", url: "https://www.doterra.com/US/en/p/lumist-diffuser-holiday-joy?OwnerID=88739", sold: "66% sold as of Nov 18"}
+    - {title: Holiday Joy 15 mL, image: assets/img/promos/holiday-2026/holiday-joy.webp, price: "Wholesale $28.50", url: "https://www.doterra.com/US/en/p/holiday-joy-oil?OwnerID=88739", sold: "80% sold as of Nov 18"}
+    - {title: Holiday Peace 15 mL, image: assets/img/promos/holiday-2026/holiday-peace.webp, price: "Wholesale $28.50", url: "https://www.doterra.com/US/en/p/doterra-holiday-peace-oil?OwnerID=88739", sold: "44% sold as of Nov 18"}
+    - {title: Winterberry 15 mL, image: assets/img/promos/holiday-2026/winterberry.webp, price: "Wholesale $32.00", url: "https://www.doterra.com/US/en/p/winterberry-oil?OwnerID=88739", sold: "67% sold as of Nov 18"}
     - {title: Yule Log 15 mL, image: assets/img/promos/holiday-2026/yule-log.webp, price: "Wholesale $28.50", url: "https://www.doterra.com/US/en/p/yule-log-oil?OwnerID=88739"}
-    - {title: Vanilla Dream Restorative Hand Cream, image: assets/img/promos/holiday-2026/vanilla-dream-hand-cream.webp, price: "Wholesale $14.50", url: "https://www.doterra.com/US/en/p/vanilla-dream-restorative-hand-cream?OwnerID=88739", sold: "74% sold as of Nov 16"}
+    - {title: Vanilla Dream Restorative Hand Cream, image: assets/img/promos/holiday-2026/vanilla-dream-hand-cream.webp, price: "Wholesale $14.50", url: "https://www.doterra.com/US/en/p/vanilla-dream-restorative-hand-cream?OwnerID=88739", sold: "79% sold as of Nov 18"}
     - {title: Mini Stick Trio, image: assets/img/promos/holiday-2026/mini-stick-trio.webp, price: "Wholesale $48.00", url: "https://www.doterra.com/US/en/p/mini-stick-trio?OwnerID=88739"}
-    - {title: Pink Sand Lip Oil, image: assets/img/promos/holiday-2026/pink-sand-lip-oil.webp, price: "Wholesale $16.50", url: "https://www.doterra.com/US/en/p/pink-sand-lip-oil?OwnerID=88739", sold: "47% sold as of Nov 16"}
-    - {title: Lemon-Lime Drops, image: assets/img/promos/holiday-2026/lemon-lime-drops.webp, price: "Wholesale $14.50", url: "https://www.doterra.com/US/en/p/lemon-lime-drops?OwnerID=88739", sold: "43% sold as of Nov 16"}
-    - {title: Cinnamon Drops, image: assets/img/promos/holiday-2026/cinnamon-drops.webp, price: "Wholesale $14.50", url: "https://www.doterra.com/US/en/p/cinnamon-drops?OwnerID=88739", sold: "40% sold as of Nov 16"}
+    - {title: Pink Sand Lip Oil, image: assets/img/promos/holiday-2026/pink-sand-lip-oil.webp, price: "Wholesale $16.50", url: "https://www.doterra.com/US/en/p/pink-sand-lip-oil?OwnerID=88739", sold: "49% sold as of Nov 18"}
+    - {title: Lemon-Lime Drops, image: assets/img/promos/holiday-2026/lemon-lime-drops.webp, price: "Wholesale $14.50", url: "https://www.doterra.com/US/en/p/lemon-lime-drops?OwnerID=88739", sold: "46% sold as of Nov 18"}
+    - {title: Cinnamon Drops, image: assets/img/promos/holiday-2026/cinnamon-drops.webp, price: "Wholesale $14.50", url: "https://www.doterra.com/US/en/p/cinnamon-drops?OwnerID=88739", sold: "41% sold as of Nov 18"}
