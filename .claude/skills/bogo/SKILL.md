@@ -70,9 +70,12 @@ d3opzdukpbxlns.cloudfront.net and issuu.com. If something new is blocked, tell h
      image: assets/img/promos/bogo-2026-11/citrus-bloom-citrus-bliss.webp
      url: https://www.doterra.com/US/en/bogo?OwnerID=88739
    ```
-   Bundle first. Add a free-gift-with-PV card or intro line only when a source confirms it. Leave out anything unknown and
+   Put the BOGO Bundle in `detail.featured` (not `items`) - it shows as a moderate gold-framed card at the very top of the
+   live page, under the eBook. Fields: kicker, title, subtitle (what's included + any free gift), text (savings), price
+   ("Wholesale $X | Retail $Y | Z PV"), image (the bundle `...-Pricing-Post.jpg`), url, button. Read the bundle line at the
+   BOTTOM of the Team App post - it lists the free bonus product and the savings. Add a free-gift-with-PV card or intro line only when a source confirms it. Leave out anything unknown and
    tell her.
-3. Download the graphics into `assets/img/promos/<slug>/` (`hero.webp`, `bundle.webp`, `<buy>-<free>.webp`, `ebook.webp`).
+3. Download the graphics into `assets/img/promos/<slug>/` (`hero.webp`, `bundle-pricing.webp`, `<buy>-<free>.webp`, `ebook.webp`).
 4. **Ask Stephne for the dates** (her time is US Central - the container clock is UTC, so check `TZ=America/Chicago date` before saying "today") (AskUserQuestion, one question each, suggest sensible defaults from the sale dates):
    - When should the page show up on the site? (`show_from` - e.g. a few days before; it says "BOGO's coming <day>!")
    - What is the last day of the sale? (`end` - default the official last day; `start` comes from the sources)

@@ -30,13 +30,16 @@ detail:
     text: Recipes, DIYs and simple ways to use every oil in this BOGO.
     url: https://issuu.com/doterra-living/docs/november_2026_bogo_-_pure_joy_ebook
     image: assets/img/promos/bogo-2026-11/ebook.webp
+  featured:
+    kicker: The star of this BOGO
+    title: Pure Joy BOGO Bundle
+    subtitle: All five pairings in one bundle, plus Holiday Love 5 mL FREE
+    text: Get every Pure Joy pairing at once and enjoy $146 in wholesale savings!
+    price: "Wholesale $175.50 | Retail $234.00 | 175.50 PV"
+    image: assets/img/promos/bogo-2026-11/bundle-pricing.webp
+    url: https://www.doterra.com/US/en/bogo?OwnerID=88739
+    button: Get the BOGO Bundle
   items:
-    - title: Pure Joy BOGO Bundle
-      subtitle: All five pairings, plus Holiday Love 5 mL FREE
-      caption: $146 wholesale savings!
-      price: "Wholesale $175.50 (175.50 PV)"
-      image: assets/img/promos/bogo-2026-11/bundle.webp
-      url: https://www.doterra.com/US/en/bogo?OwnerID=88739
     - title: Buy Citrus Bloom 15 mL
       subtitle: Get Citrus Bliss 15 mL FREE
       price: "Wholesale $28.50 (28.50 PV)"
