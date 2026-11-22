@@ -1,5 +1,5 @@
 # BOGO promotion - "Pure Joy" BOGO, November 2026. Built with the /bogo skill.
-# Sources: doTERRA Digital Marketing Kit (DMK) "- November BOGOs -" folder (pairings, prices, PV, graphics); eBook on issuu.com/doterra-living.
+# Sources: Stack Team App post 'BOGO Promotions' (Nov 19, 2026); doTERRA Digital Marketing Kit (DMK) "- November BOGOs -" folder (pairings, prices, PV, graphics); eBook on issuu.com/doterra-living.
 # Dates: show_from = page + home picture appear ("BOGO's coming <day>" until start)
 #        start / end = sale days (deals show)   ->  after end the page says "BOGO's have Ended"
 #        show_until = home picture disappears
@@ -21,7 +21,7 @@ detail:
   hero_url: https://www.doterra.com/US/en/bogo?OwnerID=88739
   intro:
     - BOGO's are back! This week we have some beautiful pairings of cozy, joyful favorites, just in time for the holidays.
-    - Just add the paid item to your cart, and the free item will be added automatically. Want them all? The Pure Joy BOGO Bundle brings every pairing together and saves you up to $146.
+    - Just add the paid item to your cart, and the free item will be added automatically. Want them all? The Pure Joy BOGO Bundle brings every pairing together, plus a FREE Holiday Love 5 mL, for $146 in wholesale savings.
     - Please message me with any questions you may have!
   links:
     - {label: Shop the BOGO Deals, url: "https://www.doterra.com/US/en/bogo?OwnerID=88739"}
@@ -32,32 +32,39 @@ detail:
     image: assets/img/promos/bogo-2026-11/ebook.webp
   items:
     - title: Pure Joy BOGO Bundle
-      subtitle: Every pairing together - save up to $146
+      subtitle: All five pairings, plus Holiday Love 5 mL FREE
+      caption: $146 wholesale savings!
       price: "Wholesale $175.50 (175.50 PV)"
       image: assets/img/promos/bogo-2026-11/bundle.webp
       url: https://www.doterra.com/US/en/bogo?OwnerID=88739
     - title: Buy Citrus Bloom 15 mL
       subtitle: Get Citrus Bliss 15 mL FREE
       price: "Wholesale $28.50 (28.50 PV)"
+      caption: $25 wholesale savings!
       image: assets/img/promos/bogo-2026-11/citrus-bloom-citrus-bliss.webp
       url: https://www.doterra.com/US/en/bogo?OwnerID=88739
     - title: Buy Madagascar Vanilla 5 mL
       subtitle: Get Gingerbread Cookie 15 mL FREE
       price: "Wholesale $40.00 (40 PV)"
+      caption: $30 wholesale savings!
       image: assets/img/promos/bogo-2026-11/madagascar-vanilla-gingerbread-cookie.webp
       url: https://www.doterra.com/US/en/bogo?OwnerID=88739
     - title: Buy On Guard 15 mL
       subtitle: Get Breathe 15 mL FREE
       price: "Wholesale $39.00 (39 PV)"
+      caption: $29 wholesale savings!
       image: assets/img/promos/bogo-2026-11/on-guard-breathe.webp
       url: https://www.doterra.com/US/en/bogo?OwnerID=88739
     - title: Buy Peppermint 15 mL
       subtitle: Get Tangerine 15 mL FREE
       price: "Wholesale $26.00 (26 PV)"
+      caption: $16 wholesale savings!
       image: assets/img/promos/bogo-2026-11/peppermint-tangerine.webp
       url: https://www.doterra.com/US/en/bogo?OwnerID=88739
     - title: Buy Serenity 15 mL
       subtitle: Get Cedarwood 15 mL + Wild Orange 15 mL FREE
       price: "Wholesale $42.00 (42 PV)"
+      caption: $29 wholesale savings!
       image: assets/img/promos/bogo-2026-11/serenity-cedarwood-wild-orange.webp
       url: https://www.doterra.com/US/en/bogo?OwnerID=88739
+  footnote: Each BOGO pairing has a limit of 5 per order. This limit also applies to the BOGO Bundle. While supplies last.
