@@ -114,6 +114,18 @@ a.card-media:hover img{transform:scale(1.03)}
 .newsletter img{border-radius:8px;box-shadow:var(--shadow)}
 .option{margin:0 0 36px} .option figcaption{margin-bottom:10px;font-size:1.1rem} .option img{border-radius:var(--r);box-shadow:var(--shadow)}
 .archive li{margin:.4em 0}
+.highlights{padding-bottom:28px}
+.highlight{background:var(--lav);border-radius:var(--r);padding:22px 24px;text-align:center}
+.highlight h3{font-size:1.35rem} .highlight p:last-of-type{margin-bottom:.6em}
+.ebook-band{padding-top:28px}
+.ebook{display:flex;align-items:center;gap:22px;background:var(--lav);border-radius:var(--r);padding:16px 24px 16px 16px;text-decoration:none;color:var(--ink);box-shadow:var(--shadow);transition:transform .2s}
+.ebook:hover{transform:translateY(-2px);color:var(--ink)}
+.ebook img{width:96px;border-radius:6px;box-shadow:var(--shadow);flex:none}
+.ebook-text{display:flex;flex-direction:column;gap:2px} .ebook-text .kicker{margin:0}
+.ebook-text strong{font:600 1.5rem/1.2 var(--serif);color:var(--plum)}
+@media(max-width:600px){.ebook{gap:14px;padding:12px 16px 12px 12px}.ebook img{width:72px}.ebook-text strong{font-size:1.25rem}}
+.notice{max-width:640px;margin:0 auto;text-align:center;background:var(--paper);border-radius:var(--r);box-shadow:var(--shadow);padding:40px 28px}
+.notice .cta-row{justify-content:center} .notice-date{font:600 1.25rem var(--serif);color:var(--plum-2)}
 
 /* footer */
 .site-footer{background:var(--plum);color:#efe9f5;margin-top:40px;padding:40px 0 30px;text-align:center}

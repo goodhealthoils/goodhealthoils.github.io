@@ -33,13 +33,17 @@ Each file in `content/promos/` has `type:` and `show_on_home:`.
    update it, and set the old one to `show_on_home: false` (keep it as an archive).
 2. `seasonal` - holiday or seasonal collections. Shows on the home page as one big picture that opens its own detail
    page (`/promos/<slug>/`) in a new tab. Fields: `home_card`, `detail` (title, subtitle, hero_image, intro, links, items).
-3. `bogo` - BOGO week. Same shape as seasonal. Use `start`/`end` dates (YYYY-MM-DD): the home page shows it only between those dates.
+3. `bogo` - BOGO week. Same shape as seasonal, plus `detail.ebook`. The one with `show_on_home: true` lives at **/bogo/**.
+   Dates: `show_from` (page + home picture appear, says "BOGO's coming <day>!"), `start`/`end` (sale days, deals show),
+   then "BOGO's have Ended" with the eBook still on top; `show_until` = last day on the home page.
+   Build a new one with the `bogo` skill (`/bogo`, in `.claude/skills/bogo/`).
 Turn a section on or off with `show_on_home: true|false`. Optional `start`/`end` also auto-hide by date.
 Item fields: `title`, `subtitle`, `image`, `url`, `text` (longer description), `caption`, `price`, `sold` (burgundy line under the price, e.g. "40% sold as of Nov 10"), `status` (red ribbon, e.g. "SOLD OUT"), `availability`.
 
 ## Quick prompts and what to do
 - "Mark Winterberry sold out" -> add `status: SOLD OUT` to that item in the active holiday file.
 - "Turn on BOGO" / "Hide the holiday section" -> flip `show_on_home`.
+- "/bogo" or "a new BOGO is coming" -> follow the `bogo` skill.
 - "Change the Product of the Month to X" -> edit the first item in the active monthly file.
 - "Use banner option B" -> copy that option's image to the monthly `banner.image`.
 - "Add a product to the shop" -> add to the right section in `content/shop.yml`; ask for the price/link if not given.

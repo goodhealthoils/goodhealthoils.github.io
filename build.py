@@ -37,6 +37,10 @@ def load_promos():
         if p.get('type') not in TYPES:
             sys.exit(f'{name}: type must be one of {TYPES}')
         p['start'], p['end'] = as_date(p.get('start')), as_date(p.get('end'))
+        # BOGO only: show_from / show_until are when the page and home picture appear and disappear
+        # (start/end are the sale days). Everything else uses start/end for both.
+        p['show_from'], p['show_until'] = as_date(p.get('show_from')), as_date(p.get('show_until'))
+        p['home_start'], p['home_end'] = p['show_from'] or p['start'], p['show_until'] or p['end']
         p['has_page'] = bool(p.get('detail'))
         for it in (p.get('items') or []) + ((p.get('detail') or {}).get('items') or []):
             check_image(it.get('image'), name)
@@ -50,6 +54,10 @@ def main():
     env = Environment(loader=FileSystemLoader(os.path.join(ROOT, 'templates')),
                       autoescape=select_autoescape(['html']), trim_blocks=True, lstrip_blocks=True)
     promos = load_promos()
+    # The BOGO turned on with show_on_home also lives at the fixed address /bogo/ (dates decide when it shows).
+    live_bogos = [p for p in promos if p['type'] == 'bogo' and p.get('show_on_home') and p['has_page']]
+    current_bogo = max(live_bogos, key=lambda p: p['start'] or datetime.date.min) if live_bogos else None
+    for p in promos: p['page_path'] = 'bogo' if p is current_bogo else f"promos/{p['slug']}"
     home_promos = {t: [p for p in promos if p['type'] == t and p.get('show_on_home')] for t in TYPES}
 
     if os.path.exists(OUT): shutil.rmtree(OUT)
@@ -79,9 +87,11 @@ def main():
     render('reset.html', '90-day-reset', page=load('90-day-reset.yml'), title='90 Day Reset')
     for p in promos:
         if p['has_page']:
-            render('promo.html', f"promos/{p['slug']}", promo=p, title=p['detail'].get('title'))
+            # every promo keeps a preview/archive copy here (the BOGO copy is not date-gated, so keep it out of search)
+            render('promo.html', f"promos/{p['slug']}", promo=p, title=p['detail'].get('title'), noindex=p['type'] == 'bogo')
         if p.get('banner_options'):
             render('banner-options.html', f"promos/{p['slug']}/banner-options", promo=p, title='Banner options', noindex=True)
+    render('bogo.html', 'bogo', promo=current_bogo, title='BOGO Week')
     render('promo-archive.html', 'promos', promos=promos, title='All Promotions', noindex=True)
     with open(os.path.join(OUT, '404.html'), 'w', encoding='utf-8') as f:
         f.write(env.get_template('404.html').render(site=site, root='/', current='', year=datetime.date.today().year, title='Page not found'))

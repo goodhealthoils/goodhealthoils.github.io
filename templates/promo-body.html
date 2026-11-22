@@ -1,0 +1,26 @@
+{% from "macros.html" import card, ext, src %}
+{% set d = promo.detail %}
+<section class="page-head">
+  <div class="wrap split">
+    <a class="split-media"{{ ext(d.hero_url) }}><img src="{{ src(root, d.hero_image) }}" alt="{{ d.title }}"></a>
+    <div class="split-text">
+      <h1>{{ d.title }}</h1>
+      {% if d.subtitle %}<p class="kicker">{{ d.subtitle }}</p>{% endif %}
+      {% for para in d.intro or [] %}<p>{{ para }}</p>{% endfor %}
+      <div class="cta-row">{% for l in d.links or [] %}<a class="btn{% if not loop.first %} btn-outline{% endif %}"{{ ext(l.url) }}>{{ l.label }}</a>{% endfor %}</div>
+    </div>
+  </div>
+</section>
+{% if d.highlights %}
+<section class="wrap highlights">
+  <div class="grid grid-{{ [d.highlights|length, 3]|min }}">{% for h in d.highlights %}
+    <div class="highlight">{% if h.kicker %}<p class="kicker">{{ h.kicker }}</p>{% endif %}<h3>{{ h.title }}</h3>{% if h.text %}<p>{{ h.text }}</p>{% endif %}{% if h.url %}<a class="link-arrow"{{ ext(h.url) }}>{{ h.link_label or 'Shop now' }} &rarr;</a>{% endif %}</div>
+  {% endfor %}</div>
+</section>
+{% endif %}
+{% if d['items'] %}
+<section class="wrap">
+  <div class="grid grid-3">{% for it in d['items'] %}{{ card(root, it) }}{% endfor %}</div>
+</section>
+{% endif %}
+{% if d.footnote %}<p class="wrap fine">{{ d.footnote }}</p>{% endif %}

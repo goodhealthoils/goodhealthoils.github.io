@@ -1,18 +1,63 @@
-# BOGO promotion. Turn on (show_on_home: true) once dōTERRA announces this year's BOGO week and the pairings.
+# BOGO promotion - "Pure Joy" BOGO, November 2026. Built with the /bogo skill.
+# Sources: doTERRA Digital Marketing Kit (DMK) "- November BOGOs -" folder (pairings, prices, PV, graphics); eBook on issuu.com/doterra-living.
+# Dates: show_from = page + home picture appear ("BOGO's coming <day>" until start)
+#        start / end = sale days (deals show)   ->  after end the page says "BOGO's have Ended"
+#        show_until = home picture disappears
 slug: bogo-2026-11
 type: bogo
-show_on_home: false
-start: 2026-11-16      # TODO confirm dates when announced
-end: 2026-11-20
+show_on_home: true
+show_from: 2026-11-22
+start: 2026-11-23
+end: 2026-11-30
+show_until: 2026-12-31
 home_card:
   image: assets/img/promos/bogo-2026-11/hero.webp
-  title: BOGO Week
-  caption: Buy one, get one FREE - this week only
+  title: Pure Joy BOGO
+  caption: Buy one, get one FREE - November 23-30, while supplies last
 detail:
-  title: Double the Wellness!
-  subtitle: BOGO week - while supplies last
+  title: Pure Joy BOGO
+  subtitle: November 23-30 - while supplies last
   hero_image: assets/img/promos/bogo-2026-11/hero.webp
   hero_url: https://www.doterra.com/US/en/bogo?OwnerID=88739
   intro:
-    - Just add the paid item to your cart and the free item is added automatically.
-  items: []
+    - BOGO's are back! This week we have some beautiful pairings of cozy, joyful favorites, just in time for the holidays.
+    - Just add the paid item to your cart, and the free item will be added automatically. Want them all? The Pure Joy BOGO Bundle brings every pairing together and saves you up to $146.
+    - Please message me with any questions you may have!
+  links:
+    - {label: Shop the BOGO Deals, url: "https://www.doterra.com/US/en/bogo?OwnerID=88739"}
+  ebook:
+    title: Pure Joy BOGO eBook
+    text: Recipes, DIYs and simple ways to use every oil in this BOGO.
+    url: https://issuu.com/doterra-living/docs/november_2026_bogo_-_pure_joy_ebook
+    image: assets/img/promos/bogo-2026-11/ebook.webp
+  items:
+    - title: Pure Joy BOGO Bundle
+      subtitle: Every pairing together - save up to $146
+      price: "Wholesale $175.50 (175.50 PV)"
+      image: assets/img/promos/bogo-2026-11/bundle.webp
+      url: https://www.doterra.com/US/en/bogo?OwnerID=88739
+    - title: Buy Citrus Bloom 15 mL
+      subtitle: Get Citrus Bliss 15 mL FREE
+      price: "Wholesale $28.50 (28.50 PV)"
+      image: assets/img/promos/bogo-2026-11/citrus-bloom-citrus-bliss.webp
+      url: https://www.doterra.com/US/en/bogo?OwnerID=88739
+    - title: Buy Madagascar Vanilla 5 mL
+      subtitle: Get Gingerbread Cookie 15 mL FREE
+      price: "Wholesale $40.00 (40 PV)"
+      image: assets/img/promos/bogo-2026-11/madagascar-vanilla-gingerbread-cookie.webp
+      url: https://www.doterra.com/US/en/bogo?OwnerID=88739
+    - title: Buy On Guard 15 mL
+      subtitle: Get Breathe 15 mL FREE
+      price: "Wholesale $39.00 (39 PV)"
+      image: assets/img/promos/bogo-2026-11/on-guard-breathe.webp
+      url: https://www.doterra.com/US/en/bogo?OwnerID=88739
+    - title: Buy Peppermint 15 mL
+      subtitle: Get Tangerine 15 mL FREE
+      price: "Wholesale $26.00 (26 PV)"
+      image: assets/img/promos/bogo-2026-11/peppermint-tangerine.webp
+      url: https://www.doterra.com/US/en/bogo?OwnerID=88739
+    - title: Buy Serenity 15 mL
+      subtitle: Get Cedarwood 15 mL + Wild Orange 15 mL FREE
+      price: "Wholesale $42.00 (42 PV)"
+      image: assets/img/promos/bogo-2026-11/serenity-cedarwood-wild-orange.webp
+      url: https://www.doterra.com/US/en/bogo?OwnerID=88739

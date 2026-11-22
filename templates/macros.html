@@ -22,8 +22,8 @@
 
 {% macro feature(root, p, kicker) %}
 {# home-page feature for a seasonal or BOGO promo: big picture that opens its detail page in a new tab #}
-{% set url = root ~ 'promos/' ~ p.slug ~ '/' if p.has_page else p.home_card.url %}
-<a class="feature" href="{{ url }}" target="_blank" rel="noopener"{% if p.start %} data-start="{{ p.start }}"{% endif %}{% if p.end %} data-end="{{ p.end }}"{% endif %}>
+{% set url = root ~ p.page_path ~ '/' if p.has_page else p.home_card.url %}
+<a class="feature" href="{{ url }}" target="_blank" rel="noopener"{% if p.home_start %} data-start="{{ p.home_start }}"{% endif %}{% if p.home_end %} data-end="{{ p.home_end }}"{% endif %}>
   <img src="{{ src(root, p.home_card.image) }}" alt="{{ p.home_card.title }}" loading="lazy">
   <div class="feature-text">
     <span class="kicker">{{ kicker }}</span>

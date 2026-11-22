@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% from "macros.html" import ext, src %}
+{# /bogo/ - the current BOGO. site.js picks one state using the viewer's date:
+     before start          -> "BOGO's coming <day>!"
+     start .. end          -> the deals
+     after end (or none)   -> "BOGO's have Ended"
+   The eBook (detail.ebook) stays at the top in every state. #}
+{% block content %}
+{% set d = promo.detail if promo else {} %}
+{% if d.ebook %}
+<section class="wrap ebook-band">
+  <a class="ebook"{{ ext(d.ebook.url) }}>
+    {% if d.ebook.image %}<img src="{{ src(root, d.ebook.image) }}" alt="" loading="lazy">{% endif %}
+    <span class="ebook-text"><span class="kicker">Free eBook</span><strong>{{ d.ebook.title }}</strong>{% if d.ebook.text %}<span>{{ d.ebook.text }}</span>{% endif %}<span class="link-arrow">{{ d.ebook.label or 'Open the eBook' }} &rarr;</span></span>
+  </a>
+</section>
+{% endif %}
+{% if promo %}
+<section class="wrap page-pad bogo-soon" hidden>
+  <div class="notice">
+    <p class="kicker">Buy one, get one free</p>
+    <h1>BOGO's coming {{ promo.start.strftime('%A') if promo.start else 'soon' }}!</h1>
+    {% if promo.start %}<p class="notice-date">{{ promo.start.strftime('%A, %B ') ~ promo.start.day }}{% if promo.end %} - {{ promo.end.strftime('%A, %B ') ~ promo.end.day }}{% endif %}</p>{% endif %}
+    <p>Get ready for some of our favorite pairings. Check back {{ promo.start.strftime('%A') if promo.start else 'soon' }} to see all the deals!</p>
+    <div class="cta-row"><a class="btn" href="{{ root }}">See this month's offers</a></div>
+  </div>
+</section>
+<div class="bogo-live" data-sale-start="{{ promo.start or '' }}" data-sale-end="{{ promo.end or '' }}">
+{% include "promo-body.html" %}
+</div>
+{% endif %}
+<section class="wrap page-pad bogo-ended"{% if promo %} hidden{% endif %}>
+  <div class="notice">
+    <p class="kicker">Buy one, get one free</p>
+    <h1>BOGO's have Ended</h1>
+    <p>Thank you to everyone who shopped!{% if d.ebook %} The eBook above is still full of recipes, DIYs and ways to use your BOGO oils.{% endif %} BOGO week comes around a few times a year, so check back soon.</p>
+    <div class="cta-row"><a class="btn" href="{{ root }}">See this month's offers</a><a class="btn btn-outline" href="{{ site.links.promotions }}" target="_blank" rel="noopener">dōTERRA promotions</a></div>
+  </div>
+</section>
+{% endblock %}
