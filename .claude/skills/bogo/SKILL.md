@@ -73,7 +73,7 @@ d3opzdukpbxlns.cloudfront.net and issuu.com. If something new is blocked, tell h
    Bundle first. Add a free-gift-with-PV card or intro line only when a source confirms it. Leave out anything unknown and
    tell her.
 3. Download the graphics into `assets/img/promos/<slug>/` (`hero.webp`, `bundle.webp`, `<buy>-<free>.webp`, `ebook.webp`).
-4. **Ask Stephne for the dates** (AskUserQuestion, one question each, suggest sensible defaults from the sale dates):
+4. **Ask Stephne for the dates** (her time is US Central - the container clock is UTC, so check `TZ=America/Chicago date` before saying "today") (AskUserQuestion, one question each, suggest sensible defaults from the sale dates):
    - When should the page show up on the site? (`show_from` - e.g. a few days before; it says "BOGO's coming <day>!")
    - What is the last day of the sale? (`end` - default the official last day; `start` comes from the sources)
    - When should it come off the home page? (`show_until` - e.g. a week after the sale; /bogo keeps the eBook and

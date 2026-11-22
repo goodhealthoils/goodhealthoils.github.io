@@ -70,12 +70,13 @@ def main():
 
     # version tag on the stylesheet so phones and browsers pick up CSS changes right away
     with open(os.path.join(ROOT, 'assets', 'css', 'site.css'), 'rb') as f: css_v = hashlib.md5(f.read()).hexdigest()[:8]
+    with open(os.path.join(ROOT, 'assets', 'js', 'site.js'), 'rb') as f: js_v = hashlib.md5(f.read()).hexdigest()[:8]
 
     def render(template, url_path, **ctx):
         depth = url_path.strip('/').count('/') + 1 if url_path.strip('/') else 0
         root = '../' * depth
         html = env.get_template(template).render(site=site, root=root, current='/' + url_path.strip('/') + ('/' if url_path.strip('/') else ''),
-                                                 year=datetime.date.today().year, css_v=css_v, **ctx)
+                                                 year=datetime.date.today().year, css_v=css_v, js_v=js_v, **ctx)
         dest = os.path.join(OUT, url_path.strip('/'), 'index.html')
         os.makedirs(os.path.dirname(dest), exist_ok=True)
         with open(dest, 'w', encoding='utf-8') as f: f.write(html)
@@ -96,7 +97,7 @@ def main():
     render('bogo.html', 'bogo', promo=current_bogo, title='BOGO Week')
     render('promo-archive.html', 'promos', promos=promos, title='All Promotions', noindex=True)
     with open(os.path.join(OUT, '404.html'), 'w', encoding='utf-8') as f:
-        f.write(env.get_template('404.html').render(site=site, root='/', current='', year=datetime.date.today().year, title='Page not found'))
+        f.write(env.get_template('404.html').render(site=site, root='/', current='', year=datetime.date.today().year, title='Page not found', css_v=css_v, js_v=js_v))
     for w in warnings: print('WARNING:', w)
     print(f'Built {sum(len(fs) for _,_,fs in os.walk(OUT))} files into _site/')
 
