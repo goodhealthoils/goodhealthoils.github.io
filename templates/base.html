@@ -30,6 +30,17 @@
     </nav>
   </div>
 </header>
+{% set b = current_bogo %}
+{% if b and b.start and current != '/bogo/' %}
+{% if b.show_from and b.show_from < b.start %}
+<a class="live-banner" href="{{ root }}bogo/" data-start="{{ b.show_from }}" data-end="{{ b.soon_until }}">
+  <span class="wrap">{{ b.soon_banner or "BOGO's are coming" }} {{ b.start.strftime('%A, %B ') ~ b.start.day }}! <span class="live-banner-cta">Take a peek &rarr;</span></span>
+</a>
+{% endif %}
+<a class="live-banner" href="{{ root }}bogo/" data-start="{{ b.start }}"{% if b.end %} data-end="{{ b.end }}"{% endif %}>
+  <span class="wrap">{{ b.live_banner or ("BOGO's are LIVE! " ~ b.detail.title) }}{% if b.end %} <span class="live-banner-date">through {{ b.end.strftime('%A, %B ') ~ b.end.day }}</span>{% endif %} <span class="live-banner-cta">Shop the deals &rarr;</span></span>
+</a>
+{% endif %}
 <main>
 {% block content %}{% endblock %}
 </main>

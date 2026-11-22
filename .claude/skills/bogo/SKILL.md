@@ -20,6 +20,9 @@ prices, PV, dates or terms).
   | `end` | last sale day. The day after, /bogo says **"BOGO's have Ended"** |
   | `show_until` | last day the home-page picture shows (/bogo keeps saying "have Ended") |
 - `detail.ebook` (title, text, url, image) is pinned to the top of /bogo in every state.
+- A burgundy banner sits under the menu on every page (except /bogo): from `show_from` until the day before `start` it says
+  "BOGO's are coming <Day, Month D>!", and from `start` through `end` it says "BOGO's are LIVE! <title> through <end>".
+  Optional overrides in the yml: `soon_banner`, `live_banner`. Template: `templates/base.html`.
 - Templates: `templates/bogo.html`, `templates/promo-body.html`; logic in `assets/js/site.js` and `build.py`. Don't edit
   them for a normal BOGO.
 

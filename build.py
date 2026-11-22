@@ -41,6 +41,7 @@ def load_promos():
         # (start/end are the sale days). Everything else uses start/end for both.
         p['show_from'], p['show_until'] = as_date(p.get('show_from')), as_date(p.get('show_until'))
         p['home_start'], p['home_end'] = p['show_from'] or p['start'], p['show_until'] or p['end']
+        p['soon_until'] = p['start'] - datetime.timedelta(days=1) if p['start'] else None   # last "coming" day
         p['has_page'] = bool(p.get('detail'))
         for it in (p.get('items') or []) + ((p.get('detail') or {}).get('items') or []):
             check_image(it.get('image'), name)
@@ -58,6 +59,7 @@ def main():
     live_bogos = [p for p in promos if p['type'] == 'bogo' and p.get('show_on_home') and p['has_page']]
     current_bogo = max(live_bogos, key=lambda p: p['start'] or datetime.date.min) if live_bogos else None
     for p in promos: p['page_path'] = 'bogo' if p is current_bogo else f"promos/{p['slug']}"
+    env.globals['current_bogo'] = current_bogo   # for the "BOGO's are LIVE" banner under the menu
     home_promos = {t: [p for p in promos if p['type'] == t and p.get('show_on_home')] for t in TYPES}
 
     if os.path.exists(OUT): shutil.rmtree(OUT)

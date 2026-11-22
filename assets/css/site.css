@@ -34,6 +34,12 @@ p{margin:0 0 1em}
   .site-nav.open{display:flex} .site-nav a{padding:12px 14px}
 }
 
+.live-banner{display:block;background:var(--burgundy);color:#fff;text-decoration:none;text-align:center;font-weight:700;letter-spacing:.02em;padding:11px 0;font-size:1.02rem}
+.live-banner .wrap{display:block}
+.live-banner:hover{background:#a3234a;color:#fff}
+.live-banner-date{font-weight:500;opacity:.9} .live-banner-cta{color:#f3dfa8;white-space:nowrap}
+@media(max-width:600px){.live-banner{font-size:.92rem;padding:9px 0}}
+
 /* buttons */
 .btn{display:inline-block;background:var(--plum);color:#fff;text-decoration:none;font-weight:700;letter-spacing:.02em;padding:12px 22px;border-radius:999px;border:1.5px solid var(--plum);transition:.2s}
 .btn:hover{background:var(--plum-2);color:#fff;transform:translateY(-1px)}
