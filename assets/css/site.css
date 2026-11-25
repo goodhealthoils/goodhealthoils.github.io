@@ -82,7 +82,7 @@ a.card-media:hover img{transform:scale(1.03)}
 .card-body h3 a{text-decoration:none;color:inherit}
 .card-sub{font-weight:700;color:var(--plum-2);margin-bottom:.6em}
 .card-price{font-weight:700;color:var(--ink);margin:.2em 0}
-.card-body .card-sold{font-weight:700;color:var(--burgundy);margin:.2em 0}
+.card-body .card-sold,.featured-text .card-sold{font-weight:700;color:var(--burgundy);margin:.2em 0}
 .card-avail{font-size:.85rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
 .card-body p:last-child{margin-bottom:0}
 .ribbon{position:absolute;top:14px;left:14px;background:#b3263a;color:#fff;font:700 .78rem var(--sans);letter-spacing:.06em;padding:6px 12px;border-radius:999px}

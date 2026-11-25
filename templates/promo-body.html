@@ -10,6 +10,7 @@
       {% if f.subtitle %}<p class="card-sub">{{ f.subtitle }}</p>{% endif %}
       {% if f.text %}<p>{{ f.text }}</p>{% endif %}
       {% if f.price %}<p class="card-price">{{ f.price }}</p>{% endif %}
+      {% if f.sold %}<p class="card-sold">{{ f.sold }}</p>{% endif %}
       {% if f.url %}<a class="btn"{{ ext(f.url) }}>{{ f.button or 'Shop now' }}</a>{% endif %}
     </div>
   </article>

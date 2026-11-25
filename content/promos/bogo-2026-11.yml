@@ -36,6 +36,7 @@ detail:
     subtitle: All five pairings in one bundle, plus Holiday Love 5 mL FREE
     text: Get every Pure Joy pairing at once and enjoy $146 in wholesale savings!
     price: "Wholesale $175.50 | Retail $234.00 | 175.50 PV"
+    sold: "30% sold as of Nov 25"
     image: assets/img/promos/bogo-2026-11/bundle-pricing.webp
     url: https://www.doterra.com/US/en/bogo?OwnerID=88739
     button: Get the BOGO Bundle
@@ -43,30 +44,35 @@ detail:
     - title: Buy Citrus Bloom 15 mL
       subtitle: Get Citrus Bliss 15 mL FREE
       price: "Wholesale $28.50 (28.50 PV)"
+      sold: "20% sold as of Nov 25"
       caption: $25 wholesale savings!
       image: assets/img/promos/bogo-2026-11/citrus-bloom-citrus-bliss.webp
       url: https://www.doterra.com/US/en/bogo?OwnerID=88739
     - title: Buy Madagascar Vanilla 5 mL
       subtitle: Get Gingerbread Cookie 15 mL FREE
       price: "Wholesale $40.00 (40 PV)"
+      sold: "45% sold as of Nov 25"
       caption: $30 wholesale savings!
       image: assets/img/promos/bogo-2026-11/madagascar-vanilla-gingerbread-cookie.webp
       url: https://www.doterra.com/US/en/bogo?OwnerID=88739
     - title: Buy On Guard 15 mL
       subtitle: Get Breathe 15 mL FREE
       price: "Wholesale $39.00 (39 PV)"
+      sold: "40% sold as of Nov 25"
       caption: $29 wholesale savings!
       image: assets/img/promos/bogo-2026-11/on-guard-breathe.webp
       url: https://www.doterra.com/US/en/bogo?OwnerID=88739
     - title: Buy Peppermint 15 mL
       subtitle: Get Tangerine 15 mL FREE
       price: "Wholesale $26.00 (26 PV)"
+      sold: "50% sold as of Nov 25"
       caption: $16 wholesale savings!
       image: assets/img/promos/bogo-2026-11/peppermint-tangerine.webp
       url: https://www.doterra.com/US/en/bogo?OwnerID=88739
     - title: Buy Serenity 15 mL
       subtitle: Get Cedarwood 15 mL + Wild Orange 15 mL FREE
       price: "Wholesale $42.00 (42 PV)"
+      sold: "20% sold as of Nov 25"
       caption: $29 wholesale savings!
       image: assets/img/promos/bogo-2026-11/serenity-cedarwood-wild-orange.webp
       url: https://www.doterra.com/US/en/bogo?OwnerID=88739
